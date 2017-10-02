@@ -18,8 +18,6 @@ $(function(){
 		parentEl.find(".loader").remove();
 	}
 
-	function showNewArticles
-
 	function getNArticles(n) {
 		$.ajax({
 				url: "https://jsonplaceholder.typicode.com/posts/",
