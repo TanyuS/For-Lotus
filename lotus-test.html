@@ -11,10 +11,10 @@
 <link rel="alternate" hreflang="en" href="https://lotus-test.zendesk.com/hc/en-us">
 
   <!-- Entypo pictograms by Daniel Bruce — www.entypo.com -->
-  <link rel="stylesheet" media="all" href="./lotus-test_files/application-a1fa96afa47eb18d40b332ccf9033704.css" id="stylesheet">
-  <link rel="stylesheet" type="text/css" href="./lotus-test_files/style-b9a0aa7c498ea111481730101f6be967.css">
+  <link rel="stylesheet" media="all" href="./lotus-test_files/styles/application-a1fa96afa47eb18d40b332ccf9033704.css" id="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./lotus-test_files/styles/style-b9a0aa7c498ea111481730101f6be967.css">
 
-  <link rel="shortcut icon" type="image/x-icon" href="https://p14.zdassets.com/hc/assets/favicon.ico">
+  <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
 
   <!--[if lt IE 9]>
   <script>
@@ -25,26 +25,26 @@
   </script>
 <![endif]-->
 
-  <script src="./lotus-test_files/jquery.js"></script>
+  <script src="./lotus-test_files/scripts/jquery.js"></script>
   
   
   
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="./lotus-test_files/css" type="text/css">
-	<link rel="stylesheet" href="./lotus-test_files/font-awesome.min.css">
-	<link rel="stylesheet" href="./lotus-test_files/github.min.css">
-	<link rel="stylesheet" href="./lotus-test_files/magnific-popup.css">
+	<link rel="stylesheet" href="./lotus-test_files/styles/font-awesome.min.css">
+	<link rel="stylesheet" href="./lotus-test_files/styles/fonts.css">
+	<link rel="stylesheet" href="./lotus-test_files/styles/github.min.css">
+	<link rel="stylesheet" href="./lotus-test_files/styles/magnific-popup.css">
 	<style>
 	.hero-bg {
 	  background-image: url("https://cdn.makespace.com/s/img/city-pages/furniture-hero-image-large.jpg?aca58722c4d8");
 	}
 	</style>
-  <link rel="stylesheet" type="text/css" href="./lotus-test_files/custom.css">
-	<script src="./lotus-test_files/jquery.magnific-popup.min.js"></script>
-	<script src="./lotus-test_files/highlight.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="./lotus-test_files/styles/custom.css">
+	<script src="./lotus-test_files/scripts/jquery.magnific-popup.min.js"></script>
+	<script src="./lotus-test_files/scripts/highlight.min.js"></script>
 
-  <script type="text/javascript" src="./lotus-test_files/script-b9a0aa7c498ea111481730101f6be967.js"></script>
+  <script type="text/javascript" src="./lotus-test_files/scripts/script-b9a0aa7c498ea111481730101f6be967.js"></script>
 </head>
 <body class="community-enabled"> 
 
@@ -67,10 +67,12 @@
 		  <div class="topbar__collapse" data-menu="">
 			<div class="topbar__controls">
 			   
-			  <a class="btn btn--topbar" href="https://lotus-test.zendesk.com/hc/en-us/requests/new">Features</a> 
-			  <a class="btn btn--topbar" href="https://lotus-test.zendesk.com/hc/en-us/requests/new">Pricing</a> 
-			  <a href="tel:855-758-3293" class="btn btn--topbar btn--phone">855-758-3293</a>
-				<a class="login" data-auth-action="signin" role="button" href="https://lotus-test.zendesk.com/hc/en-us/signin?return_to=https%3A%2F%2Flotus-test.zendesk.com%2Fhc%2Fen-us&amp;locale=1">Log in</a>
+			  <a class="btn link--topbar" href="https://lotus-test.zendesk.com/hc/en-us/requests/new">Features</a> 
+			  <a class="btn link--topbar" href="https://lotus-test.zendesk.com/hc/en-us/requests/new">Pricing</a> 
+			  <a href="tel:855-758-3293" class="btn btn--phone">855-758-3293</a>
+
+				<a class="btn--topbar" data-auth-action="signin" role="button" href="/hc/en-us/requests/new">submit a request</a>
+				<a class="btn--topbar" role="button" href="https://lotus-test.zendesk.com/hc/en-us/signin?return_to=https%3A%2F%2Flotus-test.zendesk.com%2Fhc%2Fen-us&amp;locale=1">Log in</a>
 
 			</div>
 		  </div>
@@ -86,7 +88,9 @@
   <div class="container-inner search-box search-box--hero-unit" data-search-box="" style="opacity: 1;">
 	<div class="intro-title">How can we help?</div>
 	<form role="search" class="search" data-search="" data-instant="true" autocomplete="off" action="https://lotus-test.zendesk.com/hc/en-us/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="✓"><input type="search" name="query" id="query" placeholder="Search" autocomplete="off" aria-label="Search">
-<input type="submit" name="commit" value="Search"></form>
+	<input type="submit" name="commit" value="Search"></form>
+	<p class="search-form-phone-text">
+		Or speak to a storage expert to get a free quote: <a href="tel:855-758-3293" class="btn--phone">855-758-3293</a></p>
   </div>
 </div>
 
@@ -653,7 +657,7 @@
 	  <h2 class="footer-submit-ticket__title">Can't find what you're looking for?</h2>
 	  <h3 class="footer-submit-ticket__subtitle">Let us help you!</h3>
 	  <p class="footer-submit-ticket__btn">
-		<a class="btn btn--success" href="https://lotus-test.zendesk.com/hc/en-us/requests/new">Submit a request</a>
+		<a class="btn btn--default" href="https://lotus-test.zendesk.com/hc/en-us/requests/new">Submit a request</a>
 	  </p>
 	</section>
   </div>
@@ -664,7 +668,87 @@
   </div>
 <!-- /.layout -->
 <footer class="footer container">
-  <div class="container-inner footer__inner">
+	<div class="footer-inner container-inner">
+	    <div class="footer-top flex">
+	      <div class="footer-contact flex">
+	        <span class="makespace-uploader"></span>
+	        <p class="footer-contact-copy-heavy">We're here to help.<span class="footer-contact-copy-light"> Everyday.</span></p>
+	      </div>
+	      <ul class="footer-contact-icons flex">
+	        <li class="footer-contact-item flex"><a href="mailto:support@makespace.com"><span class="footer-contact-item-inner flex"><span class="footer-icon footer-email-icon"></span>Email Us</span></a></li>
+	        
+	          <li class="footer-contact-item flex"><a href="tel:800-720-0858"><span class="footer-contact-item-inner flex ganumber"><span class="footer-icon footer-phone-icon"></span>800-720-0858</span></a></li>
+	        
+	      </ul>
+	    </div>
+
+	    <div class="footer-mid flex">
+	      <div class="footer-links">
+	        <ul class="footer-link-items">
+	          
+	          <li><a href="/about/team/">About</a></li>
+	          <li><a href="/locations/">Locations</a></li>
+	          <li><a href="/about/careers/">Careers</a></li>
+	          <li><a href="/nyc/features/" class="js-city-link" data-target="features">Features</a></li>
+	          <li><a href="/nyc/pricing/" class="js-city-link" data-target="pricing">Pricing</a></li>
+	          <li><a href="/faq/">FAQ</a></li>
+	          <li><a href="/p/about/storage-rules/">Storage Rules</a></li>
+	          <li><a href="/p/tips/">Tips</a></li>
+	          <li><a href="https://makespace.com/blog/">Blog</a></li>
+	          <li><a href="/p/legal/terms/">Terms</a></li>
+	          <li><a href="/p/legal/privacy/">Privacy</a></li>
+	        </ul>
+	      </div>
+	      <div class="footer-social flex">
+	        <p class="social-connect">Connect With Us:</p>
+	        <div class="footer-social-icons flex">
+	          <a href="https://www.facebook.com/MakeSpaceCom" target="_blank">  <span class="footer-circle"><span class="footer-icon facebook-icon"></span></span>
+	          </a>
+	          <a href="https://twitter.com/makespace" target="_blank">
+	            <span class="footer-circle"><span class="footer-icon twitter-icon"></span></span>
+	          </a>
+	          <a href="https://plus.google.com/+Makespace" target="_blank">
+	            <span class="footer-circle"><span class="footer-icon google-icon"></span></span>
+	          </a>
+	          
+	            <a href="http://www.yelp.com/biz/makespace-new-york" target="_blank">
+	          
+	            <span class="footer-circle"><span class="footer-icon yelp-icon"></span></span>
+	          </a>
+	          <a href="http://instagram.com/makespace" target="_blank">
+	            <span class="footer-circle"><span class="footer-icon instagram-icon"></span></span>
+	          </a>
+	          <a href="https://www.pinterest.com/GetMakeSpace/" target="_blank">
+	            <span class="footer-circle"><span class="footer-icon pinterest-icon"></span></span>
+	          </a>
+	        </div>
+	      </div>
+	    </div>
+
+	    <div class="footer-bot flex">
+	      <div class="footer-address">
+	        <p class="small-upcase">©2017 MakeSpace Labs, Inc. <br class="hide-for-large-up">New York, NY</p>
+	        <p class="footer-trademark-copy">MakeSpace<sup>®</sup> is a registered trademark of MakeSpace Labs, Inc.</p>
+	      </div>
+	      <div class="footer-app-bbb-container flex">
+	        <div class="footer-app-promotion">
+	          <a href="https://app.appsflyer.com/id956293592?pid=mksp_footer" target="_blank" title="MakeSpace - Your Closet in the Cloud on the App Store" class="footer-app-promotion-badge"></a>
+	        </div>
+	        <div class="footer-bbb">
+	          <a target="_blank" title="MakeSpace Labs, Inc. BBB Business Review" href="http://www.bbb.org/new-york-city/business-reviews/storage-units-portable/makespace-labs-inc-in-new-york-ny-150703/#bbbonlineclick"><img alt="MakeSpace Labs, Inc. BBB Business Review" style="border: 0;" src="https://seal-newyork.bbb.org/seals/blue-seal-160-82-makespace-labs-inc-150703.png"></a>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+
+
+
+
+
+
+
+
+  <!-- <div class="container-inner footer__inner">
 	<div class="footer__col copyright">
 	  <p>© lotus-test</p>
 	  <p>Theme by <a href="https://www.lotusthemes.com/" target="_blank">Lotus Themes</a>
@@ -675,7 +759,7 @@
 	  <a href="https://lotus-test.zendesk.com/hc/en-us#" target="_blank" class="footer-social-link fa fa-twitter"></a>
 	  <a href="https://lotus-test.zendesk.com/hc/en-us#" target="_blank" class="footer-social-link fa fa-google-plus"></a>
 	</div>
-  </div>
+  </div> -->
 </footer>
 <a href="https://lotus-test.zendesk.com/hc/en-us#" class="scroll-to-top fa fa-angle-up" data-scroll-to-top=""></a>
 
@@ -691,8 +775,8 @@
 
   <!-- / -->
 
-  <script type="text/javascript" src="./lotus-test_files/en-us-f3a01c18245724fa473afd16b30e373e.js"></script>
-  <script src="./lotus-test_files/host.js" data-brand-id="114094176714" data-return-to="https://lotus-test.zendesk.com/hc/en-us" data-theme="hc" data-locale="1" data-auth-origin="114094176714,false,true"></script>
+  <script type="text/javascript" src="./lotus-test_files/scripts/en-us-f3a01c18245724fa473afd16b30e373e.js"></script>
+  <script src="./lotus-test_files/scripts/host.js" data-brand-id="114094176714" data-return-to="https://lotus-test.zendesk.com/hc/en-us" data-theme="hc" data-locale="1" data-auth-origin="114094176714,false,true"></script>
   
 
   <script type="text/javascript">
